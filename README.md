@@ -1,2 +1,2 @@
-# myweb
+# MyWeb
 repository ini berisi tugas tugas kuliah saya 
