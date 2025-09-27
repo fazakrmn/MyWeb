@@ -1,2 +1,2 @@
 # myweb
-reposetory ini berisi tugas tugas kuliah saya 
+repository ini berisi tugas tugas kuliah saya 
