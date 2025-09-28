@@ -286,46 +286,5 @@
             <li>HTML Table</li>
         </ol>
     </div>
-
-    <script>
-        // Simple interactions
-        document.querySelector('.refresh-btn').addEventListener('click', function() {
-            this.style.transform = 'rotate(360deg)';
-            this.style.transition = 'transform 0.5s ease';
-            setTimeout(() => {
-                this.style.transform = 'rotate(0deg)';
-            }, 500);
-        });
-
-        // Add click animations to navigation items
-        document.querySelectorAll('.nav-item, .social-icon').forEach(item => {
-            item.addEventListener('click', function(e) {
-                e.preventDefault();
-                this.style.transform = 'scale(0.95)';
-                setTimeout(() => {
-                    this.style.transform = 'scale(1)';
-                }, 150);
-            });
-        });
-
-        // Add current date and time
-        function updateDateTime() {
-            const now = new Date();
-            const dateTimeString = now.toLocaleString('id-ID', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            
-            // You can add this to any element you want
-            console.log('Current date and time:', dateTimeString);
-        }
-
-        updateDateTime();
-        setInterval(updateDateTime, 60000); // Update every minute
-    </script>
 </body>
 </html>
