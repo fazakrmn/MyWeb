@@ -228,63 +228,27 @@
     </style>
 </head>
 <body>
-    <div class="browser-frame">
-        <div class="browser-header">
-            <div class="browser-controls">
-                <div class="control-btn close"></div>
-                <div class="control-btn minimize"></div>
-                <div class="control-btn maximize"></div>
-            </div>
-            <input type="text" class="address-bar" value="https://username-masing-masing.github.io/" readonly>
-            <button class="refresh-btn">↻</button>
-        </div>
-
         <div class="main-content">
             <div class="profile-photo">
-                📸
+                <img src="" Title="foto">
             </div>
             
             <div class="profile-info">
-                <h1>Nama Masing-masing</h1>
-                <p>NIM / Fakultas / Program Studi</p>
+                <h1>FAZA KARIMUN JUNDAN</h1>
+                <p>102092400129 | REKAYASA INDUSTRI | SISTEM INFORMASI</p>
             </div>
 
             <nav class="navigation">
-                <a href="#" class="nav-item">✕</a>
                 <a href="#" class="nav-item">Github</a>
-                <a href="#" class="nav-item">IG</a>
-                <a href="#" class="nav-item">dll...</a>
+                <a href="#" class="nav-item">Instagram</a>
+                <a href="#" class="nav-item">LinkedIn</a>
             </nav>
 
             <div class="social-icons">
-                <a href="#" class="social-icon" title="Close">✕</a>
                 <a href="#" class="social-icon" title="GitHub">📁</a>
                 <a href="#" class="social-icon" title="Instagram">📷</a>
                 <a href="#" class="social-icon" title="LinkedIn">💼</a>
             </div>
-
-            <div class="info-text">
-                <p>Akun sosial media masing-masing</p>
-                <p>Ketika icon sosial media diklik, akan menampilkan halaman baru (tab baru). Tag HTML yang digunakan adalah <strong>href="*"</strong> dengan tambahan <strong>target="_blank"</strong></p>
-                <p>Publikasikan melalui: <a href="https://github.com" class="github-link" target="_blank">github.com</a> dengan alamat: <strong>username-masing-masing.github.com</strong></p>
-            </div>
         </div>
-    </div>
-
-    <div class="elements-list">
-        <h3>Elemen HTML yang dibutuhkan:</h3>
-        <ol>
-            <li>HTML Picture</li>
-            <li>HTML Favicon</li>
-            <li>HTML Link</li>
-            <li>HTML Heading 1/2/3/4/5/6</li>
-            <li>HTML CSS</li>
-            <li>HTML Background/Color Text</li>
-            <li>HTML Align</li>
-            <li>HTML Font</li>
-            <li>HTML Date and Time</li>
-            <li>HTML Table</li>
-        </ol>
-    </div>
 </body>
 </html>
