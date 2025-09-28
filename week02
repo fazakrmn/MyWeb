@@ -19,60 +19,6 @@
             line-height: 1.6;
         }
 
-        .browser-frame {
-            max-width: 900px;
-            margin: 20px auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-
-        .browser-header {
-            background: #e8e8e8;
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .browser-controls {
-            display: flex;
-            gap: 8px;
-        }
-
-        .control-btn {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-
-        .close { background: #ff5f57; }
-        .minimize { background: #ffbd2e; }
-        .maximize { background: #28ca42; }
-
-        .address-bar {
-            flex: 1;
-            background: white;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 6px 12px;
-            margin: 0 15px;
-            font-size: 13px;
-            color: #666;
-        }
-
-        .refresh-btn {
-            background: #007acc;
-            color: white;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 12px;
-        }
-
         .main-content {
             padding: 40px;
             text-align: center;
@@ -154,76 +100,6 @@
             transform: scale(1.1);
         }
 
-        .info-text {
-            background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 30px;
-            backdrop-filter: blur(10px);
-        }
-
-        .github-link {
-            color: #4fc3f7;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .github-link:hover {
-            text-decoration: underline;
-        }
-
-        .elements-list {
-            position: fixed;
-            right: 20px;
-            top: 20px;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            font-size: 14px;
-            max-width: 250px;
-        }
-
-        .elements-list h3 {
-            margin-bottom: 15px;
-            color: #333;
-            font-size: 16px;
-        }
-
-        .elements-list ol {
-            padding-left: 20px;
-        }
-
-        .elements-list li {
-            margin-bottom: 5px;
-            color: #666;
-        }
-
-        @media (max-width: 768px) {
-            .browser-frame {
-                margin: 10px;
-                border-radius: 0;
-            }
-
-            .main-content {
-                padding: 20px;
-            }
-
-            .profile-info h1 {
-                font-size: 2em;
-            }
-
-            .navigation {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .elements-list {
-                position: relative;
-                right: auto;
-                top: auto;
-                margin-top: 20px;
-            }
         }
     </style>
 </head>
