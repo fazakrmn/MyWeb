@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Web Portfolio</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <title>Personal Web</title>
     <style>
         * {
             margin: 0;
@@ -22,15 +21,15 @@
         .main-content {
             padding: 40px;
             text-align: center;
-            min-height: 400px;
+            min-height: 500px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
         }
 
         .profile-photo {
-            width: 120px;
-            height: 120px;
-            background: #fff;
+            width: 100px;
+            height: 100px;
+            background: white;
             border-radius: 50%;
             margin: 0 auto 20px;
             display: flex;
@@ -41,9 +40,7 @@
         }
 
         .profile-info h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 30px;
         }
 
         .profile-info p {
@@ -78,37 +75,16 @@
         .social-icons {
             display: flex;
             justify-content: center;
-            gap: 15px;
-            margin-top: 30px;
         }
 
-        .social-icon {
-            width: 40px;
-            height: 40px;
-            background: rgba(255,255,255,0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .social-icon:hover {
-            background: rgba(255,255,255,0.3);
-            transform: scale(1.1);
-        }
-
-        }
     </style>
 </head>
 <body>
         <div class="main-content">
             <div class="profile-photo">
-                <img src="" Title="foto">
+                <img src="">
             </div>
-            
+
             <div class="profile-info">
                 <h1>FAZA KARIMUN JUNDAN</h1>
                 <p>102092400129 | REKAYASA INDUSTRI | SISTEM INFORMASI</p>
@@ -121,9 +97,7 @@
             </nav>
 
             <div class="social-icons">
-                <a href="#" class="social-icon" title="GitHub">📁</a>
-                <a href="#" class="social-icon" title="Instagram">📷</a>
-                <a href="#" class="social-icon" title="LinkedIn">💼</a>
+                <p>tugas week02</p>
             </div>
         </div>
 </body>
