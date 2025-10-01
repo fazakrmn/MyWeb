@@ -1,0 +1,41 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+}
+
+.poto img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.profile{
+    margin-top: 20px;
+}
+
+.media.social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+.media.social {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
+.icon{
+    gap: 15px;
+}
+
+.icon img{
+    width: 50px;
+    gap: 15px;
+}
